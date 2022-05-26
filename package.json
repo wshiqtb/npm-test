@@ -1,22 +1,8 @@
 {
-  "name": "npm-test-abcs23",
-  "version": "1.0.1-2",
-  "description": "npm-test",
-  "main": "index.js",
-  "scripts": {
-    "postversion": "git push && git push --tags && npm publish"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wshiqtb/npm-test.git"
-  },
-  "keywords": [
-    "npm-test"
-  ],
-  "author": "author",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wshiqtb/npm-test/issues"
-  },
-  "homepage": "https://github.com/wshiqtb/npm-test#readme"
+  "name": "root",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
 }
