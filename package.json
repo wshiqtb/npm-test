@@ -1,0 +1,22 @@
+{
+  "name": "npm-test",
+  "version": "1.0.0",
+  "description": "npm-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wshiqtb/npm-test.git"
+  },
+  "keywords": [
+    "npm-test"
+  ],
+  "author": "author",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wshiqtb/npm-test/issues"
+  },
+  "homepage": "https://github.com/wshiqtb/npm-test#readme"
+}
