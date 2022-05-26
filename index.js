@@ -1,5 +1,5 @@
 module.exports = npmText;
 
 function npmText(){
-  return 'npmText'
+  return 'npmText1'
 }
